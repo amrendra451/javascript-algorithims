@@ -1,0 +1,25 @@
+{
+  "name": "javascript-algorithms-and-data-structures",
+  "version": "1.0.0",
+  "description": "Algorithms and Data Structures implemented using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrendra451/javascript-algorithims.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "computer-science"
+  ],
+  "author": "Amrendra Nath (https://linkedin.com/in/amrendranath/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amrendra451/javascript-algorithims/issues"
+  },
+  "homepage": "https://github.com/amrendra451/javascript-algorithims#readme"
+}
