@@ -1,6 +1,6 @@
 const LinkedListNode = require("./LinkedListNode");
 
-class LinkedList {
+export default class LinkedList {
     constructor() {
         this.head = null;
         this.tail = null;
