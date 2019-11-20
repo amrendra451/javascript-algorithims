@@ -1,6 +1,6 @@
-import { LinkedListNode } from "./LinkedListNode";
+const LinkedListNode =  require("./LinkedListNode");
 
-export default class LinkedList {
+class LinkedList {
     constructor() {
         this.head = null;
         this.tail = null;
@@ -192,6 +192,8 @@ export default class LinkedList {
         return this;
     }
 }
+
+module.exports = LinkedList;
 
 const n1 = new LinkedList();
 n1.fromArray([1, 2, 3, 4, 5]);

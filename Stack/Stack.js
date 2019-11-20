@@ -1,6 +1,6 @@
-import LinkedList from "../LinkedList/LinkedList";
+const LinkedList = require("../LinkedList/LinkedList");
 
-export default class Stack {
+class Stack {
     constructor () {
         this.linkedList = new LinkedList();
     }
@@ -42,3 +42,5 @@ export default class Stack {
         return removeHead ? removeHead.value : null;
     }
 }
+
+module.exports = Stack;

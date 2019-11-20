@@ -128,6 +128,8 @@ class DoublyLinkedList {
     }
 }
 
+module.exports = DoublyLinkedList;
+
 const node = new DoublyLinkedList();
 node.prepend(12);
 node.append(10);

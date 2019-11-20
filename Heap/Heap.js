@@ -1,4 +1,4 @@
-export default class Heap {
+class Heap {
     constructor() {
         this.heapContainer = [];
     }
@@ -270,3 +270,5 @@ export default class Heap {
         throw new Error(`You have to implement heap pair comparision method for ${firstElement} and ${secondElement} values.`);
     }
 }
+
+module.exports = Heap;

@@ -1,6 +1,6 @@
-import { Heap } from "./Heap";
+const Heap = require("./Heap");
 
-export default class MaxHeap extends Head {
+class MaxHeap extends Head {
     /**
      * Checks if pair of heap elements is in correct order.
      * For MinHeap the first element must be always smaller or equal.
@@ -15,3 +15,5 @@ export default class MaxHeap extends Head {
         return firstElement >= secondElement; 
     }
 }
+
+module.exports = MaxHeap;
